@@ -36,11 +36,9 @@ METHOD: GET
 
 ENDPOINT: /api/v1/books
 
-EXAMPLE REQUEST:
-
-
 EXAMPLE RESPONSE:
-`[
+```
+[
     {
         "id": 1,
         "title": "The Scarlet Letter",
@@ -59,7 +57,8 @@ EXAMPLE RESPONSE:
         "created_at": "2019-08-12T03:46:41.284Z",
         "updated_at": "2019-08-12T03:46:41.284Z"
     },
-   ]`
+   ]
+   ```
 
 * Get specific book
 
@@ -67,10 +66,9 @@ METHOD: GET
 
 ENDPOINT: /api/v1/books/30
 
-EXAMPLE REQUEST:
-
 EXAMPLE RESPONSE:
-`[
+```
+[
     {
         "id": 30,
         "title": "The Wind in the Willows",
@@ -80,7 +78,8 @@ EXAMPLE RESPONSE:
         "created_at": "2019-08-12T03:46:41.284Z",
         "updated_at": "2019-08-12T03:46:41.284Z"
     }
-]`
+]
+```
     
     
 * Get all reviews
@@ -89,10 +88,9 @@ METHOD: GET
 
 ENDPOINT: /api/v1/reviews
 
-EXAMPLE REQUEST:
-
 EXAMPLE RESPONSE:
-`[
+```
+[
     {
         "id": 1,
         "review": "If you can remember the discussions from high-school English class about this book--read it again and see how much you've grown up! If you've been married, betrayed, or have children- it's a totally different read from when your only worry is breaking curfew and going to the mall.",
@@ -109,7 +107,8 @@ EXAMPLE RESPONSE:
         "created_at": "2019-08-12T03:46:41.361Z",
         "updated_at": "2019-08-12T03:46:41.361Z"
     },
-   ]`
+   ]
+   ```
 
 * Get specific review
 
@@ -117,10 +116,9 @@ METHID: GET
 
 ENDPOINT: /api/v1/reviews/60
 
-EXAMPLE REQUEST:
-
 EXAMPLE RESPONSE:
-`[
+```
+[
     {
         "id": 60,
         "review": "The Wind in the Willows is the perfect book that everyone would enjoy!",
@@ -129,7 +127,8 @@ EXAMPLE RESPONSE:
         "created_at": "2019-08-12T03:46:41.402Z",
         "updated_at": "2019-08-12T03:46:41.402Z"
     }
-]`
+]
+```
  
  
 ### Post data
@@ -141,13 +140,23 @@ ENDPOINT: /api/v1/books
 
 EXAMPLE REQUEST:
 
-{"id": 31, "title": "American Street", "author": "Ibi Zoboi", "year_published": 2005, "genre": "Historical Fiction"}
+```
+{
+    "id": 31,
+    "title": "American Street", 
+    "author": "Ibi Zoboi", 
+    "year_published": 2005, 
+    "genre": "Historical Fiction"
+}
+```
 
 EXAMPLE RESPONSE:
 
+```
 {
     "id": 31
 }
+```
 
 * Add a new review
 
@@ -157,13 +166,21 @@ ENDPOINT: /api/v1/reviews
 
 EXAMPLE REQUEST:
 
-{"review": "An American Classic", "star": 5, "book_id": 31}
+```
+{
+    "review": "An American Classic", 
+    "star": 5, 
+    "book_id": 31
+}
+```
 
 EXAMPLE RESPONSE:
 
+```
 {
     "id": 70
 }
+```
 
 ### Delete Data
 * Delete any record from books or reviews
@@ -172,14 +189,14 @@ METHOD: DELETE
 
 ENDPOINT: /api/v1/:table/:id
 
-EXAMPLE REQUEST:
-
 
 EXAMPLE RESPONSE:
 
+```
 {
     "Entry successfully deleted."
 }
+```
 
 
 ## Project Emphasis
