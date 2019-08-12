@@ -7,9 +7,9 @@
 * [About](#About)
 
 ## BYOBooks App
-This project focuses on learning wback-end technologies: Node/Express, Knex, SQL, Postgres.
+This project focuses on learning back-end technologies: Node/Express, Knex, SQL, Postgres.
 
-The developer created a one-to-many relational database based on classic books and thier reivews.
+The developer created a one-to-many relational database based on classic books and the book reviews.
 
 ## App Set-up
 If you'd like to clone this repository to your own local machine, run the following command in your terminal:
