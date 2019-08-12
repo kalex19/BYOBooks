@@ -81,7 +81,7 @@ EXAMPLE RESPONSE:
  
 ## About
 
-![Katie Lewis](github.com/kalex19)
+[Katie Lewis](github.com/kalex19)
 
 Licensing
 All credit goes to Turing School of Software for providing the project specifications.
