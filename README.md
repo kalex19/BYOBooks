@@ -33,6 +33,7 @@ Then, go to `http://localhost:3000/` in your browser to see the code running in 
 * Get all books
 
 METHOD: GET
+
 ENDPOINT: /api/v1/books
 
 EXAMPLE REQUEST:
@@ -63,6 +64,7 @@ EXAMPLE RESPONSE:
 * Get specific book
 
 METHOD: GET
+
 ENDPOINT: /api/v1/books/30
 
 EXAMPLE REQUEST:
@@ -84,6 +86,7 @@ EXAMPLE RESPONSE:
 * Get all reviews
 
 METHOD: GET
+
 ENDPOINT: /api/v1/reviews
 
 EXAMPLE REQUEST:
@@ -111,6 +114,7 @@ EXAMPLE RESPONSE:
 * Get specific review
 
 METHID: GET
+
 ENDPOINT: /api/v1/reviews/60
 
 EXAMPLE REQUEST:
@@ -132,6 +136,7 @@ EXAMPLE RESPONSE:
 * Add a new book
 
 METHOD: POST
+
 ENDPOINT: /api/v1/books
 
 EXAMPLE REQUEST:
@@ -147,6 +152,7 @@ EXAMPLE RESPONSE:
 * Add a new review
 
 METHOD: POST
+
 ENDPOINT: /api/v1/reviews
 
 EXAMPLE REQUEST:
@@ -163,6 +169,7 @@ EXAMPLE RESPONSE:
 * Delete any record from books or reviews
 
 METHOD: DELETE
+
 ENDPOINT: /api/v1/:table/:id
 
 EXAMPLE REQUEST:
@@ -177,12 +184,12 @@ EXAMPLE RESPONSE:
 
 ## Project Emphasis
 
- Node.js/Express
- Knex
- Relational Databases
- Nightmare (web-scraping)
- SQL
- Postgres
+ - [x] Node.js/Express
+ - [x] Knex
+ - [x] Relational Databases
+ - [x] Nightmare (web-scraping)
+ - [x] SQL
+ - [x] Postgres
  
  
 ## About
