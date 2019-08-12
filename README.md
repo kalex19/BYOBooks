@@ -15,13 +15,16 @@ The developer created a one-to-many relational database based on classic books a
 If you'd like to clone this repository to your own local machine, run the following command in your terminal:
 
 `git clone https://github.com/kalex19/BYOBooks.git`
+
 Then run the following command to install dependencies:
 
 `npm install`
+
 To view the app in action, run the following command in your terminal:
 
 `npm start`
-Then, go to http://localhost:3000/ in your browser to see the code running in the browser.
+
+Then, go to `http://localhost:3000/` in your browser to see the code running in the browser.
 
 ## How to Use
 
