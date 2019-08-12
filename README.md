@@ -1,10 +1,10 @@
 # BYOBooks
 
 ## Table of Contents
-* [App Set-up](App-Set-up)
-* [How to Use](How-to-Use)
-* [Project Emphasis](Project-Emphasis)
-* [About](About)
+* [App Set-up](#App-Set-up)
+* [How to Use](#How-to-Use)
+* [Project Emphasis](#Project-Emphasis)
+* [About](#About)
 
 ## BYOBooks App
 This project focuses on learning wback-end technologies: Node/Express, Knex, SQL, Postgres.
