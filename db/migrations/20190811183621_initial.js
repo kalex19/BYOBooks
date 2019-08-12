@@ -14,6 +14,7 @@ exports.up = function(knex) {
         table.increments('id').primary();
         table.string('review');
         table.integer('stars');
+        table.integer('book_id').unsigned();
         table.foreign('book_id').references('books.id');
 
         table.timestamps(true, true);
