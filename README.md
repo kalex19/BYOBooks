@@ -26,11 +26,11 @@ To view the app in action, run the following command in your terminal:
 
 Then, go to `http://localhost:3000/` in your browser to see the code running in the browser.
 
-## How to Use
+# How to Use
 
-### Get Data
+## Get Data
 
-* Get all books
+### Get all books
 
 METHOD: GET
 
@@ -60,7 +60,7 @@ EXAMPLE RESPONSE:
    ]
    ```
 
-* Get specific book
+### Get specific book
 
 METHOD: GET
 
@@ -82,7 +82,7 @@ EXAMPLE RESPONSE:
 ```
     
     
-* Get all reviews
+### Get all reviews
 
 METHOD: GET
 
@@ -110,7 +110,7 @@ EXAMPLE RESPONSE:
    ]
    ```
 
-* Get specific review
+### Get specific review
 
 METHID: GET
 
@@ -131,8 +131,9 @@ EXAMPLE RESPONSE:
 ```
  
  
-### Post data
-* Add a new book
+## Post data
+
+### Add a new book
 
 METHOD: POST
 
@@ -158,7 +159,9 @@ EXAMPLE RESPONSE:
 }
 ```
 
-* Add a new review
+NOTE: All fields above are required
+
+### Add a new review
 
 METHOD: POST
 
@@ -181,9 +184,11 @@ EXAMPLE RESPONSE:
     "id": 70
 }
 ```
+NOTE: All fields above are required
 
-### Delete Data
-* Delete any record from books or reviews
+## Delete Data
+
+### Delete any record from books or reviews
 
 METHOD: DELETE
 
@@ -197,7 +202,6 @@ EXAMPLE RESPONSE:
     "Entry successfully deleted."
 }
 ```
-
 
 ## Project Emphasis
 
