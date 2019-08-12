@@ -1,10 +1,10 @@
 # BYOBooks
 
 ## Table of Contents
-App Set-up
-How to Use
-Project Emphasis
-About 
+* [App Set-up](App-Set-up)
+* [How to Use](How-to-Use)
+* [Project Emphasis](Project-Emphasis)
+* [About](About)
 
 ## BYOBooks App
 This project focuses on learning wback-end technologies: Node/Express, Knex, SQL, Postgres.
@@ -17,10 +17,10 @@ If you'd like to clone this repository to your own local machine, run the follow
 git clone (url)
 Then run the following command to install dependencies:
 
-npm install
+`npm install`
 To view the app in action, run the following command in your terminal:
 
-npm start
+`npm start`
 Then, go to http://localhost:3000/ in your browser to see the code running in the browser.
 
 ## How to Use
