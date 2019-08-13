@@ -4,13 +4,14 @@ const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 const cors = require('cors');
-const port = process.env.PORT || 3000;
+const port = process.env.NODE_ENV || 3000;
 
 app.use(express.json());
 app.use(cors());
+app.set('port', port);
 
-app.listen(app.get(port), () => {
-	console.log(`App is running on http://localhost/${port}.`);
+app.listen(app.get('port'), () => {
+	console.log(`App is running on http://localhost/${app.get('port')}.`);
 });
 
 app.get('/', (req, res) => {
